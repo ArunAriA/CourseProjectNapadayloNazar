@@ -51,6 +51,7 @@ void fillGridWithColors(vector<vector<string>>& grid, int line, int col, bool bi
 }
 
 // Відображає ігрове поле з відкритими та прихованими картами.
+
 void printGrid(const vector<vector<string>>& grid, const vector<vector<bool>>& revealed)
 {
     for (int i = 0; i < grid.size(); i++)

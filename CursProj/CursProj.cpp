@@ -67,7 +67,7 @@ void printGrid(const vector<vector<string>>& grid, const vector<vector<bool>>& r
                 cout << "| " << setw(2) << left << grid[i][j] << " ";
             }
             else {
-                cout << "| ?? ";
+                cout << "| " << i + 1 << '.' << j + 1;
             }
         }
         cout << "|" << endl;
